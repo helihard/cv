@@ -1,0 +1,101 @@
+#previous-work,
+#previous-training,
+#voluntary-work {
+  display: none;
+}
+
+.main-content-full {
+  padding: 17px;
+}
+
+/* Fullstack */
+#fullstack p:first-of-type {
+  margin: 0;
+}
+
+#fullstack p:last-of-type {
+  margin: 8px 0 0 0;
+}
+
+#fullstack ul {
+  margin: 8px 5px 0;
+  padding: 0 8px;
+}
+
+#curriculum {
+  display: flex;
+  flex-direction: column;
+}
+
+#first-year,
+#second-year {
+  padding-top: 17px;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  margin: 5px 0 0 0;
+}
+
+dd {
+  margin-left: 0;
+  text-indent: 22px;
+}
+
+/* Previous work */
+#previous-work dt:first-of-type {
+  margin: 0;
+}
+
+#previous-work dd:nth-of-type(odd) {
+  padding-top: 2px;
+}
+
+#previous-work dd:nth-of-type(even) {
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+}
+
+#previous-work dd:last-of-type {
+  border-bottom: 0;
+}
+
+/* Previous training */
+#previous-training dt:first-of-type {
+  margin: 0;
+}
+#previous-training dd {
+  padding: 2px 0 5px;
+  border-bottom: 1px solid grey;
+}
+
+#previous-training dd:nth-of-type(6) {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+#previous-training dd:last-of-type {
+  border-bottom: 0;
+}
+
+/* Voluntary work */
+#voluntary-work dt:first-of-type {
+  margin: 0;
+}
+#voluntary-work dd {
+  padding: 2px 0 5px;
+  border-bottom: 1px solid grey;
+}
+
+#voluntary-work dd:nth-of-type(3) {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+#voluntary-work dd:last-of-type {
+  border-bottom: 0;
+}

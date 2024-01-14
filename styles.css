@@ -1,0 +1,57 @@
+:root {
+  --darkgreen: rgb(0, 24, 0);
+  --deepforestgreen: hsl(144, 100%, 10%);
+  --huntergreen: rgb(74, 103, 65);
+}
+
+html {
+  background-image: linear-gradient(#22311d, #4a6741);
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  margin-top: 50px;
+}
+
+input,
+button {
+  max-width: max-content;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button {
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px #22311d;
+  width: 325px;
+}

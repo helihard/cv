@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-tab {
+  text-align: center;
+  padding: 17px;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+.main-content-tab:hover {
+  background-color: lightgrey;
+}
+
+.main-content-tab.active {
+  background-color: darkgrey;
+  font-weight: 700;
+}
+
+.main-content-tab:first-of-type {
+  border-top: 1px solid lightgrey;
+}
+
+.main-content-tab:first-of-type.active {
+  border-top: 1px solid darkgrey;
+}
+
+.main-content-tab:last-of-type {
+  border-bottom: 1px solid lightgrey;
+}
+
+.main-content-tab:last-of-type.active {
+  border-bottom: 1px solid darkgrey;
+}

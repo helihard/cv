@@ -1,0 +1,50 @@
+header {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: repeat(5, auto);
+  padding: 17px;
+}
+
+/* thumbnail image */
+#thumbnail {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+#img-lg {
+  display: none;
+}
+
+#email-div,
+#github-div,
+#coding-experience-div,
+#interested-in-div {
+  grid-column-end: span 2;
+  padding-top: 17px;
+}
+
+/* email symbol */
+#email-div i {
+  font-size: 20px;
+  margin-right: 8px;
+  color: var(--darkgreen);
+  display: none;
+}
+
+/* GitHub logo */
+#github-div i {
+  font-size: 20px;
+  margin-right: 8px;
+  color: var(--darkgreen);
+}
+
+/* bullets */
+#coding-experience-div i,
+#interested-in-div i {
+  font-size: 5px;
+  margin: 0 10px;
+  position: relative;
+  bottom: 2px;
+  color: var(--darkgreen);
+}

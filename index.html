@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Heli Hård: cv</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="header.css" rel="stylesheet" />
+    <link href="navbar.css" rel="stylesheet" />
+    <link href="main-area.css" rel="stylesheet" />
+    <link href="text-styles.css" rel="stylesheet" />
+    <link href="media-min750px.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form onsubmit="validatePassword(); return false">
+      <input type="password" id="pass" />
+      <button type="submit">Enter</button>
+    </form>
+    <div id="wrapper">
+      <div id="container" style="display: none">
+        <header>
+          <div id="img-div">
+            <img id="thumbnail" src="images/heli.jpg" /> <img id="img-lg"
+            src=images/heli.jpg>
+          </div>
+          <div id="name-div"><h1>Heli Källoff Hård</h1></div>
+          <div id="email-div">
+            <i class="fa-solid fa-at fa-xl"></i
+            ><a href="mailto:heli.hard@studerande.plushogskolan.se"
+              >heli.hard@studerande.plushogskolan.se</a
+            >
+          </div>
+          <div id="github-div">
+            <i class="fa-brands fa-github fa-xl"></i
+            ><a href="https://github.com/helihard/" target="_blank"
+              >GitHub: helihard</a
+            >
+          </div>
+          <div id="coding-experience-div">
+            Erfarenhet av <strong>HTML</strong><i class="fa-solid fa-circle"></i
+            ><strong>CSS</strong><i class="fa-solid fa-circle"></i>
+            <strong>JavaScript</strong><i class="fa-solid fa-circle"></i
+            ><strong>MySQL</strong><i class="fa-solid fa-circle"></i
+            ><strong>C#</strong>
+          </div>
+          <div id="interested-in-div">
+            Särskilt nyfiken på: databaser<i class="fa-solid fa-circle"></i
+            >tillgänglighet<i class="fa-solid fa-circle"></i>UX<i
+              class="fa-solid fa-circle"
+            ></i
+            >säkerhet
+          </div>
+        </header>
+        <div id="nav-main">
+          <nav>
+            <!-- Fullstack tab -->
+            <div
+              class="main-content-tab active"
+              onclick="displayMainContent(event, 'fullstack')"
+            >
+              Fullstackutvecklare inriktning Javascript
+            </div>
+            <!-- Previous work tab -->
+            <div
+              class="main-content-tab"
+              onclick="displayMainContent(event, 'previous-work')"
+            >
+              Arbetslivserfarenhet
+            </div>
+            <!-- Previous training tab -->
+            <div
+              class="main-content-tab"
+              onclick="displayMainContent(event, 'previous-training')"
+            >
+              Tidigare utbildning
+            </div>
+            <!-- Voluntary work tab -->
+            <div
+              class="main-content-tab"
+              onclick="displayMainContent(event, 'voluntary-work')"
+            >
+              Ideellt engagemang
+            </div>
+          </nav>
+          <main>
+            <!-- Fullstack full text -->
+            <div id="fullstack" class="main-content-full">
+              <p>
+                <strong>Fullstackutvecklare inriktning JavaScript</strong> är en
+                tvåårig yrkes&shy;högskoleutbildning på heltid. Fullständig
+                information om utbildningen finns
+                <a
+                  href="https://teknikhogskolan.se/utbildningar/fullstackutvecklare-javascript/"
+                  target="_blank"
+                  >här: Fullstackutvecklare inriktning JavaScript på
+                  Teknikhögskolans webbplats</a
+                >
+              </p>
+              <p style="color: green; font-size: 15px">
+                <i class="fa-solid fa-asterisk"></i> Den här kursen läser jag
+                just nu.
+              </p>
+              <div id="curriculum">
+                <div id="first-year">
+                  <strong>HT23–VT24</strong>
+                  <ul>
+                    <li>Frontend, 35 YHP</li>
+                    <li>Grundläggande programmering, 50 YHP</li>
+                    <li style="color: green">
+                      Databaser, 40 YHP <i class="fa-solid fa-asterisk"></i>
+                    </li>
+                    <li>Producera och leverera mjukvara, 50 YHP</li>
+                    <li>LIA 1, 40 YHP</li>
+                  </ul>
+                </div>
+                <!-- end first year -->
+                <div id="second-year">
+                  <strong>HT24–VT25</strong>
+                  <ul>
+                    <li>Objektorienterad analys och design, 35 YHP</li>
+                    <li>Java Spring, 30 YHP</li>
+                    <li>Säker mjukvara, 30 YHP</li>
+                    <li>LIA 2, 70 YHP</li>
+                    <li>Examensarbete, 20 YHP</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- end curriculum -->
+            </div>
+            <!-- end Fullstack full text -->
+            <!-- Previous work full text -->
+            <div id="previous-work" class="main-content-full">
+              <h2>Arbetslivserfarenhet i urval</h2>
+              <dl>
+                <dt>Verksamhetsledare, sakkunnig transfrågor</dt>
+                <dd>RFSL Ungdom</dd>
+                <dd>2015– (tjänstledig)</dd>
+                <dt>Utredare</dt>
+                <dd>Myndigheten för ungdoms- och civilsamhällesfrågor</dd>
+                <dd>2021 (tidsbegränsad anställning)</dd>
+                <dt>
+                  Konsult för Utredningen om stärkt ställning och bättre
+                  levnadsvillkor för transpersoner
+                </dt>
+                <dd>Regeringskansliet</dd>
+                <dd>2017 (tidsbegränsad anställning)</dd>
+                <dt>Sakkunnig transfrågor</dt>
+                <dd>RFSL</dd>
+                <dd>2016–2017</dd>
+                <dt>Projektledare</dt>
+                <dd>RFSL Ungdom</dd>
+                <dd>2013–2015</dd>
+                <dt>Skolinformatör</dt>
+                <dd>RFSU</dd>
+                <dd>2012–2013</dd>
+                <dt>Workshopledare</dt>
+                <dd>RFSL Ungdom</dd>
+                <dd>2009–2013</dd>
+                <dt>
+                  Förlagsredaktör, språk- och översättningsgranskare,
+                  korrekturläsare, skribent
+                </dt>
+                <dd>Ordvan textproduktion (enskild firma)</dd>
+                <dd>2004–2015</dd>
+              </dl>
+            </div>
+            <!-- end Previous work full text -->
+            <!-- Previous training full text -->
+            <div id="previous-training" class="main-content-full">
+              <h2>Utbildning i urval</h2>
+              <dl>
+                <dt><strong>Programmering 1</strong></dt>
+                <dd>Hermods, 2023</dd>
+                <dt>
+                  <strong
+                    >Att möta barn och ungdomar i svåra livssituationer</strong
+                  >, 7,5 HP
+                </dt>
+                <dd>Stockholms universitet, 2016</dd>
+                <dt><strong>Diplomerad ungdomscoach</strong></dt>
+                <dd>Tollare folkhögskola, 2012–2013</dd>
+                <dt>
+                  <strong>Medieteknik och webbpublicering</strong>, 7,5 HP
+                </dt>
+                <dd>Södertörns högskola, 2003</dd>
+                <dt><strong>Förlagskunskap</strong>, 30 HP</dt>
+                <dd>Stockholms universitet, 2003</dd>
+                <dt>
+                  <strong>Dåvarande långa journalistikprogrammet</strong>, 150
+                  HP
+                </dt>
+                <dd>JMK (Journalisthögskolan),</dd>
+                <dd>Stockholms universitet, 2000–2002</dd>
+              </dl>
+            </div>
+            <!-- end Previous training full text -->
+            <!-- Voluntary work full text -->
+            <div id="voluntary-work" class="main-content-full">
+              <h2>Ideellt engagemang i urval</h2>
+              <dl>
+                <dt>Samtalsledare hbtq och npf</dt>
+                <dd>Attention Stockholm, 2015–2016</dd>
+                <dt>Skolinformatör</dt>
+                <dd>RFSL Stockholm, 2012–2013</dd>
+                <dt>Ungdomsjoursvolontär</dt>
+                <dd>Stjärnjouren,</dd>
+                <dd>Sundbybergs trans- och tjejjour, 2011</dd>
+              </dl>
+            </div>
+            <!-- end Voluntary work full text -->
+          </main>
+        </div>
+        <!-- end nav-main -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end wrapper -->
+    <script src="script.js"></script>
+  </body>
+</html>
