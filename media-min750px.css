@@ -9,12 +9,13 @@
 
   #img-div {
     width: 200px;
-    grid-row-end: span 5;
+    grid-row-end: span 6;
   }
 
   #name-div,
   #email-div,
   #github-div,
+  #linkedin-div,
   #coding-experience-div,
   #interested-in-div {
     grid-column-end: auto;
