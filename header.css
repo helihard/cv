@@ -50,7 +50,8 @@ header {
 /* bullets  */
 #coding-experience-div i,
 #interested-in-div i,
-#previous-work i {
+#previous-work i,
+#voluntary-work i {
   font-size: 5px;
   margin: 0 10px;
   position: relative;
